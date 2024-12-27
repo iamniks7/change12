@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cropper-circle-container .cropper-view-box,
+.cropper-circle-container .cropper-face {
+  border-radius: 50%;
+}
+
+.cropper-circle-container .cropper-view-box {
+  box-shadow: 0 0 0 1px #39f;
+  outline: 0;
+}
+
+.cropper-circle-container .cropper-face {
+  background: none;
+}
